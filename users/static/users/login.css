@@ -1,0 +1,132 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Split Container */
+.split-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left Side: Branding */
+.split-left {
+    flex: 1;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.branding-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.branding-content p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Right Side: Form */
+.split-right {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-container {
+    background: #f8f9fa;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #ff9aa2;
+    outline: none;
+    background-color: #ffecef;
+    box-shadow: 0 0 5px rgba(255, 154, 162, 0.5);
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #fff;
+    background: linear-gradient(135deg, #ff9aa2, #ffdde1);
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #ff6f91, #ff9aa2);
+    box-shadow: 0 3px 8px rgba(255, 111, 145, 0.3);
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ff6f91;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ff3b69;
+}
